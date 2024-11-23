@@ -9,6 +9,9 @@ class Animal(IAnimal):
         self.peso = peso
         self.sonido = ""
 
+    def serializar(self):
+        return self.__dict__
+    
     # Get nombre
     @property
     def nombre(self) -> str:

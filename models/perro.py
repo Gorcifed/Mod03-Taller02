@@ -10,6 +10,3 @@ class Perro(Animal):
     #Métodos
     def hacer_sonido(self):
         return "¡Guau guau!"
-    
-    def serializar(self):
-        return self.__dict__
